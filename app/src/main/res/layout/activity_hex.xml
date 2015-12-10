@@ -14,14 +14,18 @@
         android:hint="请输入50%馏出温度"
         android:id="@+id/editTextT50"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        />
 
     <EditText
         android:textSize="30dp"
         android:hint="请输入20℃密度"
         android:id="@+id/editTextP20"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        />
 
     <EditText
         android:enabled="false"
@@ -29,7 +33,9 @@
         android:hint="显示结果"
         android:id="@+id/editTextResult"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        />
 
     <Button
         android:id="@+id/buttonHEXCalculate"

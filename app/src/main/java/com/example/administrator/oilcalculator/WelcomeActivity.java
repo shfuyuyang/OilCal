@@ -21,7 +21,7 @@ public class WelcomeActivity extends ActionBarActivity {
         relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(WelcomeActivity.this,MainActivity.class);
+                Intent intent=new Intent(WelcomeActivity.this,Main2Activity.class);
                 startActivity(intent);
                 WelcomeActivity.this.finish();
             }
